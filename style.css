@@ -3,19 +3,34 @@
 	height: 600px;
 	margin-top: -100px;
 	overflow: hidden;
+
+	position: relative;
 }
 
 .colorblock {
 	margin-left: -10vw;
 	width: 120vw;
-	height: 200px;
-	transform: rotate(-5deg);
+	height: 170px;
+	transform: rotate(-3.5deg);
 }
 #cyan { background: #2BABE2; }
 #magenta { background: #EA0B8B; }
 #yellow { background: #FCEE21; }
 #green { background: #01A64F; }
 
+#header h1 {
+	position: absolute;
+	top: 38%;
+	transform: translateY(-50%);
+	left: 50%;
+	transform: translateX(-50%);
+
+	text-align: center;
+	color: #000;
+	font-weight: 100;
+	font-size: 6em;
+}
+
 html {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
 }
