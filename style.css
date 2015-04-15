@@ -25,10 +25,10 @@ header {
 	-webkit-transform: rotate(-3.5deg);
 	        transform: rotate(-3.5deg);
 }
-#cyan { background: #2BABE2; }
-#magenta { background: #EA0B8B; }
-#yellow { background: #FCEE21; }
-#green { background: #01A64F; }
+#cyan { background: #2BABE2; } 		/* rgb(43,171,226) */
+#magenta { background: #EA0B8B; } 	/* rgb(234,11,139) */
+#yellow { background: #FCEE21; } 	/* rgb(252,238,33) */
+#green { background: #01A64F; } 	/* rgb(1,166,79) */
 
 header h1 {
 	position: absolute;
@@ -44,17 +44,46 @@ header h1 {
 	font-weight: 100;
 	font-size: 6em;
 }
+header h1 a {
+	color: #000;
+	text-decoration: none;
+}
 
 /* NAV */
 
 nav {
+	text-align: center;
+}
+nav a {
+	color: #000;
+	text-decoration: none;
+
+	padding: 10px;
+	background: rgba(0,0,0,0.1);
+	border-bottom: 3px solid rgb(0,0,0);
+}
+nav a:hover, nav a.active {
+	background: rgba(43,171,226,0.1);
+	border-bottom: 3px solid rgb(43,171,226);
+}
+nav a:nth-child(2):hover, nav a:nth-child(2).active {
+	background: rgba(234,11,139,0.1);
+	border-bottom: 3px solid rgb(234,11,139);
+}
+nav a:nth-child(3):hover, nav a:nth-child(3).active {
+	background: rgba(252,238,33,0.1);
+	border-bottom: 3px solid rgb(252,238,33);
+}
+nav a:nth-child(4):hover, nav a:nth-child(4).active {
+	background: rgba(1,166,79,0.1);
+	border-bottom: 3px solid rgb(1,166,79);
 }
 
 /* GENERAL */
 
 #outerwrapper {
 	margin-top: 500px;
-	padding-top: 50px;
+	padding-top: 25px;
 	width: 100%;
 	background-color: #FFF;
 
