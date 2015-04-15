@@ -1,9 +1,14 @@
+#header {
+	margin-top: -50px;
+	height: 700px;
+}
+
 .colorblock {
+	margin-left: -10vw;
 	width: 120vw;
 	height: 200px;
 	transform: rotate(-5deg);
 }
-
 #cyan { background: #2BABE2; }
 #magenta { background: #EA0B8B; }
 #yellow { background: #FCEE21; }
