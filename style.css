@@ -1,6 +1,8 @@
 #header {
-	margin-top: -50px;
-	height: 700px;
+	display: block;
+	height: 600px;
+	margin-top: -100px;
+	overflow: hidden;
 }
 
 .colorblock {
@@ -13,3 +15,7 @@
 #magenta { background: #EA0B8B; }
 #yellow { background: #FCEE21; }
 #green { background: #01A64F; }
+
+html {
+	font-family: Helvetica, Arial, sans-serif;
+}
