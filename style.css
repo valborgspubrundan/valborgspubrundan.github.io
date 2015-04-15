@@ -1,7 +1,7 @@
 .colorblock {
 	width: 120vw;
 	height: 200px;
-	transform: rotate(5deg);
+	transform: rotate(-5deg);
 }
 
 #cyan { background: #0FF; }
