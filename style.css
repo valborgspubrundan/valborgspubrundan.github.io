@@ -1,10 +1,21 @@
-#header {
+html {
+	font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
+}
+
+/* HEADER STUFF */
+
+header {
 	display: block;
 	height: 600px;
+	width: 100vw;
+
 	margin-top: -100px;
 	overflow: hidden;
 
-	position: relative;
+	position: fixed;
+	top: 0;
+
+	z-index: -1;
 }
 
 .colorblock {
@@ -19,7 +30,7 @@
 #yellow { background: #FCEE21; }
 #green { background: #01A64F; }
 
-#header h1 {
+header h1 {
 	position: absolute;
 	top: 38%;
 	-webkit-transform: translateY(-50%);
@@ -34,6 +45,37 @@
 	font-size: 6em;
 }
 
-html {
-	font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
+/* NAV */
+
+nav {
+}
+
+/* GENERAL */
+
+#outerwrapper {
+	margin-top: 500px;
+	padding-top: 50px;
+	width: 100%;
+	background-color: #FFF;
+
+	box-shadow: 0 -4px 5px rgba(0,0,0,0.3);
+}
+#wrapper {
+	width: 800px;
+	margin: 0 auto;
+}
+
+h1, h2, h3 {
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 2.5em;
+	letter-spacing: -3px;
+}
+p {
+	font-weight: 300;
+	font-size: 1.5em;
 }
