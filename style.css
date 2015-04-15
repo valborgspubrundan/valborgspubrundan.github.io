@@ -11,7 +11,8 @@
 	margin-left: -10vw;
 	width: 120vw;
 	height: 170px;
-	transform: rotate(-3.5deg);
+	-webkit-transform: rotate(-3.5deg);
+	        transform: rotate(-3.5deg);
 }
 #cyan { background: #2BABE2; }
 #magenta { background: #EA0B8B; }
@@ -21,9 +22,11 @@
 #header h1 {
 	position: absolute;
 	top: 38%;
-	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
 	left: 50%;
-	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
 
 	text-align: center;
 	color: #000;
