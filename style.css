@@ -180,6 +180,23 @@ h1.firstHeading {
 	text-transform: inherit;
 }
 
+/* BUSSAR */
+
+table {
+	margin: 25px auto;
+}
+table:first-of-type {
+	margin-top: 50px;
+}
+table h2 {
+	margin: 5px 10px;
+	font-size: 2em;
+}
+p.bussar {
+	margin: 5px;
+	font-size: 1.75em;
+}
+
 /* SPONSORER */
 
 p img {
