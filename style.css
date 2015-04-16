@@ -144,29 +144,44 @@ h2 {
 	font-size: 2.5em;
 	letter-spacing: -3px;
 }
-h2.pubhead {
-	margin-bottom: 0;
-	text-transform: inherit;
-}
 h3 {
 	font-weight: 700;
 	font-size: 1.5em;
 	letter-spacing: -2px;
 }
-h3.question {
-	margin-bottom: 5px;
-}
 p {
 	font-weight: 300;
 	font-size: 1.25em;
 }
+
+/* HOME */
+
+h3.question {
+	margin-bottom: 5px;
+}
 p.answer {
 	margin-top: 5px;
+}
+
+/* PUBAR */
+
+h2.pubhead {
+	margin-bottom: 0;
+	text-transform: inherit;
 }
 p.subhead {
 	margin-top: 0;
 	text-align: center;
 }
+#kthmap-canvas, #kistamap-canvas, #sumap-canvas {
+	height: 500px;
+}
+h1.firstHeading {
+	text-transform: inherit;
+}
+
+/* SPONSORER */
+
 p img {
 	vertical-align: middle;
 }

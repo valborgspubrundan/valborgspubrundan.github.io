@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8"> 
+	<meta charset="UTF-8">
+
+	<title>Valborgspubrundan</title>
 
 	<link rel="stylesheet" type="text/css" href="/normalize.css">
 	<link rel="stylesheet" type="text/css" href="/style.css">
-	<title>Valborgspubrundan</title>
+
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+	<script src="maps.js"></script>
 </head>
 <body>
 	<header role="banner">
@@ -21,24 +25,35 @@
 			<a href="/pubar" class="active">pubar</a><a href="/bussar">bussar</a><a href="/slutfesten">slutfesten</a><a href="/sponsorer">sponsorer</a>
 		</nav>
 		<section id="wrapper">
-			<p>
-			IsT	Telge 11-14<br>
-			QM Haninge 11-14<br>
-			Disk 13-16<br>
-			Qmisk/TMEIT 13-16<br>
-				NF KM 15-19<br>
-				LÄS KM 15-19<br>
-				Sus KM 15-19<br>
-				JF KM 15-19<br>
-				CLW 18-23<br>
-				MKM 18-23<br>
-				fkm* 18-23<br>
-				KBM 18-23<br>
-				KFK 18-23<br>
-				KK 18-23<br>
-				QBM 18-23<br>
-				SophiaHemmet 18-23
-			</p>
+			<h2 class="pubhead">IS Telge</h2>
+			<p class="subhead">11-14</p>
+			<iframe
+			width="800"
+			height="500"
+			frameborder="0" style="border:0"
+			src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDmLv00y_GiquIHgpOvw8G82f5JBVpz-vU
+			&q=Kvarnbergagatan+14,Södertälje,Sweden"></iframe>
+
+			<h2 class="pubhead">QM Haninge</h2>
+			<p class="subhead">11-14</p>
+			<iframe
+			width="800"
+			height="500"
+			frameborder="0" style="border:0"
+			src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDmLv00y_GiquIHgpOvw8G82f5JBVpz-vU
+			&q=Marinens+väg+30,Haninge,Sweden"></iframe>
+
+			<h2 class="pubhead">Kista</h2>
+			<p class="subhead">13-16</p>
+			<div id="kistamap-canvas"></div>
+
+			<h2 class="pubhead">SU</h2>
+			<p class="subhead">15-19</p>
+			<div id="sumap-canvas"></div>
+
+			<h2 class="pubhead">KTH Valhallavägen &amp; SophiaHemmet</h2>
+			<p class="subhead">18-23</p>
+			<div id="kthmap-canvas"></div>
 		</section>
 	</div>
 
