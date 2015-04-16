@@ -132,7 +132,6 @@ nav a:nth-child(4).active {
 	width: 800px;
 	margin: 0 auto;
 	padding-bottom: 20px;
-	text-align: center;
 }
 
 h1, h2 {
@@ -184,6 +183,7 @@ h1.firstHeading {
 
 table {
 	margin: 25px auto;
+	text-align: center;
 }
 table:first-of-type {
 	margin-top: 50px;
@@ -199,6 +199,9 @@ p.bussar {
 
 /* SPONSORER */
 
+p.center {
+	text-align: center;
+}
 p img {
 	vertical-align: middle;
 }
