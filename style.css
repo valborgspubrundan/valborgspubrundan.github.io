@@ -24,13 +24,14 @@ header {
 	height: 170px;
 	-webkit-transform: rotate(-3.5deg);
 	        transform: rotate(-3.5deg);
+	position: relative;
 }
 #cyan { background: #2BABE2; } 		/* rgb(43,171,226) */
 #magenta { background: #EA0B8B; } 	/* rgb(234,11,139) */
 #yellow { background: #FCEE21; } 	/* rgb(252,238,33) */
 #green { background: #01A64F; } 	/* rgb(1,166,79) */
 
-header h1 {
+#maintitle {
 	position: absolute;
 	top: 38%;
 	-webkit-transform: translateY(-50%);
@@ -45,7 +46,7 @@ header h1 {
 	letter-spacing: -5px;
 	font-size: 6em;
 }
-header h1 a {
+#maintitle a {
 	color: #000;
 	text-decoration: none;
 }
