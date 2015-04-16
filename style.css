@@ -51,6 +51,30 @@ header {
 	text-decoration: none;
 }
 
+/* FOOTER STUFF */
+
+footer {
+	display: block;
+	background-color: #DDD;
+	height: 100px;
+
+	position: relative;
+}
+footer p {
+	text-align: center;
+
+	font-size: 0.75em;
+	color: #666;
+
+	position: absolute;
+	top: 25%;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+
 /* NAV */
 
 nav {
@@ -107,19 +131,30 @@ nav a:nth-child(4).active {
 #wrapper {
 	width: 800px;
 	margin: 0 auto;
+	padding-bottom: 20px;
 }
 
-h1, h2, h3 {
+h1, h2 {
 	text-align: center;
 	font-weight: 700;
 	text-transform: uppercase;
 }
-
 h2 {
 	font-size: 2.5em;
 	letter-spacing: -3px;
 }
+h3 {
+	font-weight: 700;
+	font-size: 1.5em;
+	letter-spacing: -2px;
+}
+h3.question {
+	margin-bottom: 5px;
+}
 p {
 	font-weight: 300;
-	font-size: 1.5em;
+	font-size: 1.25em;
+}
+p.answer {
+	margin-top: 5px;
 }
