@@ -1,11 +1,10 @@
 html {
-	font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
+	font-family: 'Tisa Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /* HEADER STUFF */
 
 header {
-	display: block;
 	height: 600px;
 	width: 100vw;
 
@@ -16,6 +15,14 @@ header {
 	top: 0;
 
 	z-index: -1;
+	background: url("http://source.unsplash.com/Oaqk7qqNh_c/1920x1080");
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url("/resources/header.png");
+	background-size: cover;
+
+	display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .colorblock {
@@ -32,22 +39,14 @@ header {
 #green { background: #01A64F; } 	/* rgb(1,166,79) */
 
 #maintitle {
-	position: absolute;
-	top: 228px;
-	-webkit-transform: translateY(-50%);
-	        transform: translateY(-50%);
-	left: 50%;
-	-webkit-transform: translateX(-50%);
-	        transform: translateX(-50%);
-
 	text-align: center;
 	color: #000;
 	font-weight: 300;
 	letter-spacing: -5px;
-	font-size: 6em;
+	font-size: 9vw;
 }
 #maintitle a {
-	color: #000;
+	color: #fff;
 	text-decoration: none;
 }
 
@@ -55,24 +54,21 @@ header {
 
 footer {
 	display: block;
-	background-color: #DDD;
+	background-color: #000;
 	height: 100px;
 
-	position: relative;
+	/*position: relative;*/
+
+	display: flex;
+  align-items: center;
+  justify-content: center;
 }
 footer p {
 	text-align: center;
 
 	font-size: 0.75em;
-	color: #666;
+	color: #fff;
 
-	position: absolute;
-	top: 25%;
-	-webkit-transform: translateY(-50%);
-	        transform: translateY(-50%);
-	left: 50%;
-	-webkit-transform: translateX(-50%);
-	        transform: translateX(-50%);
 }
 
 /* NAV */
@@ -128,8 +124,10 @@ nav a:nth-child(4).active {
 
 	box-shadow: 0 -4px 5px rgba(0,0,0,0.3);
 }
+
 #wrapper {
-	width: 800px;
+	width: 90%;
+	max-width: 800px;
 	margin: 0 auto;
 	padding-bottom: 20px;
 }
@@ -141,16 +139,15 @@ h1, h2 {
 }
 h2 {
 	font-size: 2.5em;
-	letter-spacing: -3px;
 }
 h3 {
 	font-weight: 700;
 	font-size: 1.5em;
-	letter-spacing: -2px;
 }
 p {
 	font-weight: 300;
 	font-size: 1.25em;
+	margin: 0 auto;
 }
 
 /* HOME */
@@ -182,15 +179,17 @@ h1.firstHeading {
 /* BUSSAR */
 
 table {
+	width: 100%;
+	max-width: 800px;
 	margin: 25px auto;
 	text-align: center;
 }
 table:first-of-type {
 	margin-top: 50px;
 }
-table h2 {
-	margin: 5px 10px;
-	font-size: 2em;
+th {
+	margin: 1em;
+	font-size: 1em;
 }
 p.bussar {
 	margin: 5px;

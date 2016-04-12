@@ -73,17 +73,17 @@ function initialize() {
 		KKInfoWindow.open(KTHMap, KKMarker)
 	})
 
-	var MKMLatlng = new google.maps.LatLng(59.347915, 18.071477)
-	var MKMMarker = new google.maps.Marker({
-		position: MKMLatlng,
+	var DKMLatlng = new google.maps.LatLng(59.347915, 18.071477)
+	var DKMMarker = new google.maps.Marker({
+		position: DKMLatlng,
 		map: KTHMap,
-		title: 'MKM'
+		title: 'DKM'
 	})
-	var MKMInfoWindow = new google.maps.InfoWindow({
-		content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">MKM</h1><div id="bodyContent"><p>Osquars Backe 21</p></div></div>'
+	var DKMInfoWindow = new google.maps.InfoWindow({
+		content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">DKM</h1><div id="bodyContent"><p>Osquars Backe 21</p></div></div>'
 	})
-	google.maps.event.addListener(MKMMarker, 'click', function() {
-		MKMInfoWindow.open(KTHMap, MKMMarker)
+	google.maps.event.addListener(DKMMarker, 'click', function() {
+		DKMInfoWindow.open(KTHMap, DKMMarker)
 	})
 
 	var QBMLatlng = new google.maps.LatLng(59.350072, 18.069601)
