@@ -124,10 +124,10 @@ function initialize() {
 	var NFMarker = new google.maps.Marker({
 		position: NFLatlng,
 		map: SUMap,
-		title: 'NF KM'
+		title: 'NF KM & SUS KM'
 	})
 	var NFInfoWindow = new google.maps.InfoWindow({
-		content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">NF KM</h1><div id="bodyContent"><p>Gröna villan</p></div></div>'
+		content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">NF KM & SUS KM</h1><div id="bodyContent"><p>Gröna villan</p></div></div>'
 	})
 	google.maps.event.addListener(NFMarker, 'click', function() {
 		NFInfoWindow.open(SUMap, NFMarker)
@@ -150,10 +150,10 @@ function initialize() {
 	var SUSMarker = new google.maps.Marker({
 		position: SUSLatlng,
 		map: SUMap,
-		title: 'SUS KM'
+		title: 'HumF'
 	})
 	var SUSInfoWindow = new google.maps.InfoWindow({
-		content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">SUS KM</h1><div id="bodyContent"><p>Gula villan</p></div></div>'
+		content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">HumF</h1><div id="bodyContent"><p>Gula villan</p></div></div>'
 	})
 	google.maps.event.addListener(SUSMarker, 'click', function() {
 		SUSInfoWindow.open(SUMap, SUSMarker)
