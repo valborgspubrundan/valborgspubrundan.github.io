@@ -2,26 +2,32 @@ html {
 	font-family: 'Tisa Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
 /* HEADER STUFF */
 
 header {
-	height: 600px;
+	height: 300px;
 	width: 100vw;
-
-	margin-top: -100px;
 	overflow: hidden;
 
 	position: fixed;
 	top: 0;
 
 	z-index: -1;
-	background: url("http://source.unsplash.com/Oaqk7qqNh_c/1920x1080");
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url("/resources/header.png");
+	background: url("http://source.unsplash.com/ya631mqQ7Ng/1920x1080");
+	/*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url("/resources/header.png");*/
 	background-size: cover;
-
+	color: white;
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
 	display: flex;
   align-items: center;
   justify-content: center;
+  /*flex-direction: column;*/
 
 }
 
@@ -42,8 +48,8 @@ header {
 	text-align: center;
 	color: #000;
 	font-weight: 300;
-	letter-spacing: -5px;
-	font-size: 9vw;
+	/*letter-spacing: px;*/
+	font-size: 7vw;
 }
 #maintitle a {
 	color: #fff;
@@ -117,12 +123,13 @@ nav a:nth-child(4).active {
 /* GENERAL */
 
 #outerwrapper {
-	margin-top: 500px;
+	margin-top: 300px;
 	padding-top: 25px;
 	width: 100%;
 	background-color: #FFF;
 
 	box-shadow: 0 -4px 5px rgba(0,0,0,0.3);
+	flex: 1;
 }
 
 #wrapper {
@@ -130,6 +137,7 @@ nav a:nth-child(4).active {
 	max-width: 800px;
 	margin: 0 auto;
 	padding-bottom: 20px;
+	text-align: center;
 }
 
 h1, h2 {
@@ -138,7 +146,7 @@ h1, h2 {
 	text-transform: uppercase;
 }
 h2 {
-	font-size: 2.5em;
+	font-size: 5vmin;
 }
 h3 {
 	font-weight: 700;
@@ -147,7 +155,9 @@ h3 {
 p {
 	font-weight: 300;
 	font-size: 1.25em;
-	margin: 0 auto;
+	margin: 1em auto;
+	text-align: center;
+	line-height: 2;
 }
 
 /* HOME */
