@@ -21,30 +21,30 @@ function initialize() {
 		CLWInfoWindow.open(KTHMap, CLWMarker)
 	})
 
-	var fkmLatlng = new google.maps.LatLng(59.348680, 18.075179)
-	var fkmMarker = new google.maps.Marker({
-		position: fkmLatlng,
-		map: KTHMap,
-		title: 'fkm*'
-	})
-	var fkmInfoWindow = new google.maps.InfoWindow({
-		content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">fkm*</h1><div id="bodyContent"><p>Teknikringen 26</p></div></div>'
-	})
-	google.maps.event.addListener(fkmMarker, 'click', function() {
-		fkmInfoWindow.open(KTHMap, fkmMarker)
-	})
-
-	var KBMLatlng = new google.maps.LatLng(59.353912, 18.065752)
+	var KBMLatlng = new google.maps.LatLng(59.351067, 18.070958)
 	var KBMMarker = new google.maps.Marker({
 		position: KBMLatlng,
 		map: KTHMap,
 		title: 'KBM'
 	})
 	var KBMInfoWindow = new google.maps.InfoWindow({
-		content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">KBM</h1><div id="bodyContent"><p>Brinellvägen 89</p></div></div>'
+		content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">KBM</h1><div id="bodyContent"><p>Brinellvägen 28</p></div></div>'
 	})
 	google.maps.event.addListener(KBMMarker, 'click', function() {
 		KBMInfoWindow.open(KTHMap, KBMMarker)
+	})
+
+	var fkmLatlng = new google.maps.LatLng(59.353912, 18.065752)
+	var fkmMarker = new google.maps.Marker({
+		position: fkmLatlng,
+		map: KTHMap,
+		title: 'fkm*'
+	})
+	var fkmInfoWindow = new google.maps.InfoWindow({
+		content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">fkm*</h1><div id="bodyContent"><p>Brinellvägen 89</p></div></div>'
+	})
+	google.maps.event.addListener(fkmMarker, 'click', function() {
+		fkmInfoWindow.open(KTHMap, fkmMarker)
 	})
 
 	var KFKLatlng = new google.maps.LatLng(59.348121, 18.068895)
@@ -73,17 +73,17 @@ function initialize() {
 		KKInfoWindow.open(KTHMap, KKMarker)
 	})
 
-	var DKMLatlng = new google.maps.LatLng(59.347915, 18.071477)
-	var DKMMarker = new google.maps.Marker({
-		position: DKMLatlng,
+	var MKMLatlng = new google.maps.LatLng(59.347915, 18.071477)
+	var MKMMarker = new google.maps.Marker({
+		position: MKMLatlng,
 		map: KTHMap,
-		title: 'DKM'
+		title: 'MKM'
 	})
-	var DKMInfoWindow = new google.maps.InfoWindow({
-		content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">DKM</h1><div id="bodyContent"><p>Osquars Backe 21</p></div></div>'
+	var MKMInfoWindow = new google.maps.InfoWindow({
+		content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">MKM</h1><div id="bodyContent"><p>Osquars Backe 21</p></div></div>'
 	})
-	google.maps.event.addListener(DKMMarker, 'click', function() {
-		DKMInfoWindow.open(KTHMap, DKMMarker)
+	google.maps.event.addListener(MKMMarker, 'click', function() {
+		MKMInfoWindow.open(KTHMap, MKMMarker)
 	})
 
 	var QBMLatlng = new google.maps.LatLng(59.350072, 18.069601)
@@ -98,6 +98,20 @@ function initialize() {
 	google.maps.event.addListener(QBMMarker, 'click', function() {
 		QBMInfoWindow.open(KTHMap, QBMMarker)
 	})
+
+	var BBQLatlng = new google.maps.LatLng(59.348562, 18.074775)
+	var BBQMarker = new google.maps.Marker({
+		position: BBQLatlng,
+		map: KTHMap,
+		title: 'BBQ + Festeriet'
+	})
+	var BBQInfoWindow = new google.maps.InfoWindow({
+		content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">BBQ & Festeriet</h1><div id="bodyContent"><p>Teknikringen 22</p></div></div>'
+	})
+	google.maps.event.addListener(BBQMarker, 'click', function() {
+		BBQInfoWindow.open(KTHMap, BBQMarker)
+	})
+
 
 	var SophiaHemmetLatlng = new google.maps.LatLng(59.346224, 18.074685)
 	var SophiaHemmetMarker = new google.maps.Marker({
@@ -115,8 +129,8 @@ function initialize() {
 	// SU
 
 	var SUMapOptions = {
-		zoom: 16,
-		center: new google.maps.LatLng(59.364787, 18.057702)
+		zoom: 15,
+		center: new google.maps.LatLng(59.362405, 18.058288)
 	}
 	SUMap = new google.maps.Map(document.getElementById('sumap-canvas'), SUMapOptions)
 
@@ -172,6 +186,19 @@ function initialize() {
 		JFInfoWindow.open(SUMap, JFMarker)
 	})
 
+	var FESTPrULatlng = new google.maps.LatLng(59.357861, 18.055600)
+	var FESTPrUMarker = new google.maps.Marker({
+		position: FESTPrULatlng,
+		map: SUMap,
+		title: 'F.E.ST PrU'
+	})
+	var FESTPrUInfoWindow = new google.maps.InfoWindow({
+		content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">F.E.ST PrU</h1><div id="bodyContent"><p>Städet</p></div></div>'
+	})
+	google.maps.event.addListener(FESTPrUMarker, 'click', function() {
+		FESTPrUInfoWindow.open(SUMap, FESTPrUMarker)
+	})
+
 	// KISTA
 
 	var KistaMapOptions = {
@@ -200,7 +227,7 @@ function initialize() {
 		title: 'Qmisk &amp; TMEIT'
 	})
 	var QmiskInfoWindow = new google.maps.InfoWindow({
-		content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Qmisk &amp; TMEIT</h1><div id="bodyContent"><p>Kistagången 16</p></div></div>'
+		content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Qmisk &amp; TMEIT</h1><div id="bodyContent"><p>Kistagången 14</p></div></div>'
 	})
 	google.maps.event.addListener(QmiskMarker, 'click', function() {
 		QmiskInfoWindow.open(KistaMap, QmiskMarker)
