@@ -14,21 +14,19 @@ header {
 	height: 300px;
 	width: 100vw;
 	overflow: hidden;
-
 	position: fixed;
 	top: 0;
 
-	z-index: -1;
-	background: url("http://source.unsplash.com/ya631mqQ7Ng/1920x1080");
-	/*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url("/resources/header.png");*/
+	z-index: 0;
+	/*background: url("http://source.unsplash.com/ya631mqQ7Ng/1920x1080");
+	/*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url("/resources/header.png");*/*/
 	background-size: cover;
-	color: white;
+	background-color: #ca0813;
 	text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
 	display: flex;
   align-items: center;
   justify-content: center;
-  /*flex-direction: column;*/
-
+	flex-wrap: wrap;
 }
 
 .colorblock {
@@ -52,7 +50,7 @@ header {
 	font-size: 7vw;
 }
 #maintitle a {
-	color: #fff;
+	color: #fed86f;
 	text-decoration: none;
 }
 
@@ -123,6 +121,7 @@ nav a:nth-child(4).active {
 /* GENERAL */
 
 #outerwrapper {
+	z-index: 1;
 	margin-top: 300px;
 	padding-top: 25px;
 	width: 100%;
@@ -138,6 +137,11 @@ nav a:nth-child(4).active {
 	margin: 0 auto;
 	padding-bottom: 20px;
 	text-align: center;
+}
+
+h1 {
+	font-family: 'Bangers', 'Tisa Sans Pro', cursive;
+	color: black;
 }
 
 h1, h2 {
@@ -193,9 +197,13 @@ table {
 	max-width: 800px;
 	margin: 25px auto;
 	text-align: center;
+	/*border: solid 1px black;*/
 }
 table:first-of-type {
 	margin-top: 50px;
+}
+.border-above {
+	border-top: solid 1px black;
 }
 th {
 	margin: 1em;
@@ -204,6 +212,16 @@ th {
 p.bussar {
 	margin: 5px;
 	font-size: 1.75em;
+}
+
+h2.bussar {
+	font-size: 2em;
+	font-family: 'Oswald', sans-serif;
+}
+
+h3.bussar {
+	font-size: 1.75em;
+	font-family: 'Oswald', sans-serif;
 }
 
 /* SPONSORER */
