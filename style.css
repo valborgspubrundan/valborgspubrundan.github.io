@@ -232,3 +232,10 @@ p.center {
 p img {
 	vertical-align: middle;
 }
+
+/* FAMILJEN */
+.familjen {
+	border: solid 5px black;
+	border-style: double;
+	width: 760px;
+}
