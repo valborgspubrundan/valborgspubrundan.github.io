@@ -249,6 +249,8 @@ p img {
 }
 .pub > h2 {
 	padding-right: 1em;
+	font-size: 3vmin;
+
 }
 
 .pub > p {
