@@ -239,3 +239,18 @@ p img {
 	border-style: double;
 	width: 760px;
 }
+
+/* PUBAR */
+.pub {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.pub > h2 {
+	padding-right: 1em;
+}
+
+.pub > p {
+	margin: 0;
+}
