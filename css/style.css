@@ -9,14 +9,14 @@
   z-index: 1;
 }
 #large-header {
-  background-image: url("https://source.unsplash.com/mln2ExJIkfc/1920x1080");
+  background-image: url("https://source.unsplash.com/4SLz_RCk6kQ/1920x1080");
 }
-.img-logo {
+#img-logo {
   position: relative;
   width: 10%;
   top: 80%;
+  overflow: hidden;
   left: 50%;
-  background-size: cover;
   background-position: center center;
   z-index: 1;
 }
@@ -48,6 +48,9 @@
   letter-spacing: 0.1em;
 }
 .main-title .thin {
+  font-weight: 200;
+}
+.second-title .thin {
   font-weight: 200;
 }
 @media only screen and (max-width: 768px) {
