@@ -112,7 +112,7 @@ video::-webkit-media-controls {
 
 .cd-slider-nav {
   text-align: center;
-  margin-bottom: -30px;
+  margin-bottom: -50px;
 }
 
 .cd-slider-nav ul {
@@ -222,7 +222,7 @@ video::-webkit-media-controls {
     margin: 0 auto;
     padding-top: 15px;
     max-width: 100%;
-    margin-bottom: 90px;
+    margin-bottom: -90px;
 }
 
 .heading span {
