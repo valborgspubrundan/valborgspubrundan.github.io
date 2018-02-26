@@ -222,6 +222,7 @@ video::-webkit-media-controls {
     margin: 0 auto;
     padding-top: 15px;
     max-width: 100%;
+    margin-bottom: 90px;
 }
 
 .heading span {
