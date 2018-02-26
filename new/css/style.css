@@ -112,7 +112,7 @@ video::-webkit-media-controls {
 
 .cd-slider-nav {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: -30px;
 }
 
 .cd-slider-nav ul {
