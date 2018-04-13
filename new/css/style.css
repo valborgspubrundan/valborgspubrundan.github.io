@@ -768,7 +768,7 @@ footer a {
 ========================================
 */
 
-@media (max-width: 2000px){
+@media (max-width: 1920px){
   .cd-slider-nav ul li h6 {
     font-size: 13px;
     text-transform: uppercase;
@@ -780,7 +780,7 @@ footer a {
   }
 
   .cd-slider-nav .image-icon img {
-    width: 25px;
+    width: 32px;
   }
 
   .cd-slider-nav ul .selected img {
