@@ -768,7 +768,7 @@ footer a {
 ========================================
 */
 
-@media (max-width: 850px){
+@media (max-width: 2000px){
   .cd-slider-nav ul li h6 {
     font-size: 13px;
     text-transform: uppercase;
