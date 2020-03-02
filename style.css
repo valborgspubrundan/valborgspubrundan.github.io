@@ -125,9 +125,9 @@ nav a:nth-child(4).active {
 	margin-top: 300px;
 	padding-top: 25px;
 	width: 100%;
-	background-color: #FFF;
+	background-color: #333;
 
-	box-shadow: 0 -4px 5px rgba(0,0,0,0.3);
+	box-shadow: 0 -4px 5px rgba(0,0,0,1);
 	flex: 1;
 }
 
