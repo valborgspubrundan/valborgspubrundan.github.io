@@ -17,5 +17,4 @@ This repository should be updated each year with:
 
 This should be semi-automated with a makefile.
 
-Current owner of valborgspubrundan.nu is qmisk, 
-you can reach their NetMaster on nm@qmisk.com
+For questions regarding this project, reach out to it@valborgspubrundan.nu
